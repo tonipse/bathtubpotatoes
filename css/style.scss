@@ -191,6 +191,18 @@ body {
    font-size: 80pt;
 }
 @media only screen and (max-width: 700px) {
+   body {
+      background: white;
+   }
+   .intro {
+      width: 110vw;
+   }
+   .nav {
+      margin-left: 54%;
+      a {
+         font-size: 17pt;
+      }
+   }
    .txtcontainer {
       width: 99%;
    }
@@ -198,12 +210,11 @@ body {
       font-size: 50pt;
    }
    #slideshow {
-      width: 99%;
-      padding: 1px;
+      width: 95vw;
       height: 270px;
    }
    .underslide {
-      width: 99%;
+      width: 95vw;
       p {
          padding: 10px;
       }
