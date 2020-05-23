@@ -294,7 +294,18 @@ body h1 {
 
 @media only screen and (max-width: 700px) {
   .sidenav {
-    display: none;
+    position: relative;
+    top: unset;
+    left: unset;
+    display: block;
+    margin-top: 70px;
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+    padding: 5px;
+  }
+  .sidenav a {
+    margin-left: 10px;
+    text-align: center;
   }
   body {
     background: white;
