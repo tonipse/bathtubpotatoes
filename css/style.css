@@ -224,7 +224,8 @@ body h1 {
   grid-row-gap: 40px;
 }
 
-.txtcontainer .txt {
+.txtcontainer .txt,
+.txtcontainer .txtpro {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
   padding: 30px;
@@ -241,7 +242,8 @@ body h1 {
           flex-direction: column;
 }
 
-.txtcontainer .txt a {
+.txtcontainer .txt a,
+.txtcontainer .txtpro a {
   padding: 10px;
   background-color: #525252;
   color: white;
@@ -250,8 +252,14 @@ body h1 {
   border-radius: 20px;
 }
 
-.txtcontainer .txt p {
+.txtcontainer .txt p,
+.txtcontainer .txtpro p {
   font-size: 17pt;
+}
+
+.txtcontainer .txt img,
+.txtcontainer .txtpro img {
+  width: 99%;
 }
 
 .main-h1 {
