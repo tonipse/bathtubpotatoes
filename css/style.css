@@ -5,8 +5,13 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  height: 400vh;
   font-family: "Montserrat";
+  background: -webkit-gradient(linear, left top, right top, from(#e3ffe7), to(#d9e7ff));
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+body h1 {
+  text-align: center;
 }
 
 .intro {
@@ -64,5 +69,123 @@ body {
 .intro .intro-container small {
   color: white;
   font-size: 15pt;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 60%;
+  height: 440px;
+  padding: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow .container {
+  margin-top: 300px;
+}
+
+#slideshow .container h1 {
+  text-align: center;
+}
+
+#slideshow .container p {
+  text-align: center;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.underslide {
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+}
+
+.underslide h1 {
+  text-align: center;
+  font-size: 28pt;
+}
+
+.underslide p {
+  font-size: 18pt;
+}
+
+.trend {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #a79c9c;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+.trend h1 {
+  font-size: 40pt;
+  line-height: 20pt;
+}
+
+.trend-prod {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 30px;
+}
+
+.trend-prod .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trend-prod .left img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.trend-prod .right h1 {
+  text-align: left;
+  font-size: 25pt;
+}
+
+.trend-prod .right p {
+  font-size: 18pt;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  border-top: solid 1px #c2c2c2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  font-size: 14pt;
 }
 /*# sourceMappingURL=style.css.map */
