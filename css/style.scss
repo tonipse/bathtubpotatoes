@@ -169,6 +169,7 @@ body {
    grid-row-gap: 40px;
    .txt,
    .txtpro {
+      visibility: hidden;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
       padding: 30px;
       border-radius: 20px;
@@ -257,6 +258,7 @@ body {
    }
    .trend {
       width: 99%;
+      visibility: hidden;
       h1 {
          font-size: 26pt;
       }

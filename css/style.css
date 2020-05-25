@@ -226,6 +226,7 @@ body h1 {
 
 .txtcontainer .txt,
 .txtcontainer .txtpro {
+  visibility: hidden;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.308);
   padding: 30px;
@@ -337,6 +338,7 @@ body h1 {
   }
   .trend {
     width: 99%;
+    visibility: hidden;
   }
   .trend h1 {
     font-size: 26pt;
